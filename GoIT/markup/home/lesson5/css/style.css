@@ -5,7 +5,7 @@
 
 
 @font-face {
-    font-family: 'Helveticaneuecyrlight, Arial, Tahoma, sans-serif';
+    font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
     src: url('../fonts/helveticaneuecyr-light-webfont.eot');
     src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
@@ -30,7 +30,7 @@ body {
 	position: relative;      
 	overflow: hidden;
 	background-color: #085596;
-	font-family: 'Helveticaneuecyrlight, Arial, Tahoma, sans-serif';
+	font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
 }
 
 .menu li{
@@ -76,7 +76,7 @@ body {
 	text-align: center;
 	padding-top: 20px;
 	color: white;
-	font-family: 'Helveticaneuecyrlight, Arial, Tahoma, sans-serif';
+	font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
 }
 
 .sidebar{
@@ -85,7 +85,7 @@ body {
 	height: 600px;
 	padding-bottom: 10px;
 	background-color: rgba(0,0,0,0.7);
-	font-family: 'Helveticaneuecyrlight, Arial, Tahoma, sans-serif';
+	font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
 }
 
 
@@ -97,7 +97,7 @@ body {
 	margin-left: 150px;
 	margin-bottom: 20px;
 	border: none;
-	font-family: 'Helveticaneuecyrlight, Arial, Tahoma, sans-serif';
+	font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
 	text-indent: 20px;
 }
 
@@ -111,7 +111,7 @@ body {
 	margin-left: 150px;
 	border: none;
 	margin-bottom: 20px;
-	font-family: 'Helveticaneuecyrlight, Arial, Tahoma, sans-serif';
+	font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
 	text-indent: 20px;
 }
 
