@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Forma */
+
+.forma{
+    margin: 50px;
+    margin-bottom: 0;
+    width: 550px;
+   	border: 2px solid #aaa;
+    font-family: Arial, Times, sans-serif;
+    font-size: 12px;
+}
+.label{
+    display: inline-block;
+    margin-left: 10px;
+}
+.input1{
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 12px;
+}
+.input2{
+	margin-top: 12px;
+	margin-right: 15px;
+	margin-bottom: 12px;
+}
+.input3{
+	margin-top: 12px;
+	margin-right: 23px;
+	margin-bottom: 30px;
+}
+.podskazka{
+    overflow: hidden;
+}
+.textForm{           
+    width: 220px;
+    display: inline-block;
+    border: 
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(89,81,89,1);
+	-moz-box-shadow: 0px 0px 3px 2px rgba(89,81,89,1);
+	box-shadow: 0px 0px 3px 2px rgba(89,81,89,1);
+    margin-left: 5px;
+    padding: 7px;
+    border-radius: 2px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.show {
+    opacity: 1;
+    transition: 2s;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #eee;
+    color: #777;
+    outline: none;
+}
+
+
+/* Tabs */
+
+.tabs {
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 550px;
+    padding: 3px; 
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: Arial, Tahoma, sans-serif;
+}
+.tab{
+    height: 28px;
+    line-height: 25px;
+    list-style: none;
+    padding-top: 3px;
+    padding-left: 2px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #ddd;
+}
+.tab li {
+    float: left;
+    display: inline;
+    margin: 0 5px 0 0;
+    padding: 0 13px 3px;
+    color: #777;
+    cursor: pointer;
+    background: #eee;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+.tab a{
+	text-decoration: none;
+	color: black;
+}
+.tab .visible {
+    background: #fff;
+    border: 1px solid grey;
+    border-bottom: 0;
+}
+.text {
+    display: none;
+    background: #fdfdfd;
+    padding: 20px;
+}
+.abzaci p{
+	margin-bottom: 15px;
+}
+.text.visible {
+    display: block;
+}
+
+
