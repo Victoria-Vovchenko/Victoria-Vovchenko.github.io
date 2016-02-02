@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Обязательные правила CSS */
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+
+/*  My jCarousel styles */
+
+.jcarousel img{
+    width: 500px;
+    height: 360px;
+}
+
+.jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid #fff;
+    width: 500px;
+    height: 360px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #706561;
+}
+
+.jcarousel-arrow-left,
+.jcarousel-arrow-right {
+    position: absolute;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #706561;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.jcarousel-arrow-left:hover,
+.jcarousel-arrow-right:hover{
+    color: #bfcf73;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+.jcarousel-arrow-left {
+    left: -50px;
+}
+.jcarousel-arrow-right {
+    right: -50px;
+}
+.jcarousel-arrow-left:hover span,
+.jcarousel-arrow-right:hover span {
+    display: block;
+}
+.jcarousel-arrow-left.inactive,
+.jcarousel-arrow-right.inactive {
+    opacity: .5;
+    cursor: default;
+}
+
+/* END  My jCarousel styles */
