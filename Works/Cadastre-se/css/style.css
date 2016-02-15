@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body { 
+
+  	background-image: url(../img/1.jpg); 
+  	background-repeat: no-repeat;
+  	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+.menu{
+	position: relative;      
+	overflow: hidden;
+	background-color: #085596;
+	font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
+}
+
+.menu li{
+	list-style: none;   
+	float: left;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu .minhas{
+	border-left: 1px solid #4eabda;
+}
+
+.menu a{
+	display: block; 
+	color: #65b5ed;
+	line-height: 40px;
+	padding: 0 15px;
+	text-decoration: none;    
+	font-size: 15px;
+}	
+
+.menu a:hover{     
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background-color: #4eabda;
+	color: #f2f5f7;
+}
+
+
+.header{
+	margin: 200px 400px 2px;
+	width: 560px;
+	height: 66px;
+	background-color: rgba(0,0,0,0.7);
+	
+}
+
+.header p{
+	font-size: 25px;
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+	font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
+}
+
+.sidebar{
+	margin: 0 400px 200px;
+	width: 560px;
+	height: 600px;
+	padding-bottom: 10px;
+	background-color: rgba(0,0,0,0.7);
+	font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
+}
+
+
+#firstname{
+	background: black;
+	width: 269px;
+	height: 38px;
+	margin-top: 30px;
+	margin-left: 150px;
+	margin-bottom: 20px;
+	border: none;
+	font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
+	text-indent: 20px;
+}
+
+#lastname,
+#email,
+#passw
+{
+	background: black;
+	width: 269px;
+	height: 38px;
+	margin-left: 150px;
+	border: none;
+	margin-bottom: 20px;
+	font-family: 'Helveticaneuecyrlight', Arial, Tahoma, sans-serif;
+	text-indent: 20px;
+}
+
+.send{
+	margin-left: 150px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.boot{
+	margin-left: 200px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+
+}
+
+.content {
+	text-align: center;
+	margin: 0 70px 0 70px;
+	color: #ffffff;
+}
+
+.boot1{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	margin-left: 140px;
+}
+
+.ou{
+	padding-left: 131px;
+}
+
+
+/* При наведении на поля*/
+
+
+#firstname:focus, 
+#lastname:focus,
+#email:focus,
+#passw:focus
+{
+	background: #1b5288;
+	border: 
+	-webkit-box-shadow: 0px 1px 6px 6px rgba(27,82,136,0.34);
+	-moz-box-shadow: 0px 1px 6px 6px rgba(27,82,136,0.34);
+	box-shadow: 0px 1px 6px 6px rgba(27,82,136,0.34);
+}
+
+

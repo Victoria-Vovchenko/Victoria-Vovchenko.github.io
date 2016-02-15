@@ -1,0 +1,189 @@
+body{
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#128aa7+2,1fd0e3+2,fdfefe+14,fdfefe+14,37bbcc+14,fdfefe+14,37bbcc+14,fdfefe+14,fdfefe+14,fdfefe+14,fdfefe+14,37bbcc+14,fdfefe+14,37bbcc+14,0d78a1+100 */
+background: rgb(18,138,167); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(18,138,167,1) 2%, rgba(31,208,227,1) 2%, rgba(253,254,254,1) 14%, rgba(253,254,254,1) 14%, rgba(55,187,204,1) 14%, rgba(253,254,254,1) 14%, rgba(55,187,204,1) 14%, rgba(253,254,254,1) 14%, rgba(253,254,254,1) 14%, rgba(253,254,254,1) 14%, rgba(253,254,254,1) 14%, rgba(55,187,204,1) 14%, rgba(253,254,254,1) 14%, rgba(55,187,204,1) 14%, rgba(13,120,161,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,rgba(18,138,167,1)), color-stop(2%,rgba(31,208,227,1)), color-stop(14%,rgba(253,254,254,1)), color-stop(14%,rgba(253,254,254,1)), color-stop(14%,rgba(55,187,204,1)), color-stop(14%,rgba(253,254,254,1)), color-stop(14%,rgba(55,187,204,1)), color-stop(14%,rgba(253,254,254,1)), color-stop(14%,rgba(253,254,254,1)), color-stop(14%,rgba(253,254,254,1)), color-stop(14%,rgba(253,254,254,1)), color-stop(14%,rgba(55,187,204,1)), color-stop(14%,rgba(253,254,254,1)), color-stop(14%,rgba(55,187,204,1)), color-stop(100%,rgba(13,120,161,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(18,138,167,1) 2%,rgba(31,208,227,1) 2%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(13,120,161,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(18,138,167,1) 2%,rgba(31,208,227,1) 2%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(13,120,161,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(18,138,167,1) 2%,rgba(31,208,227,1) 2%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(13,120,161,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(18,138,167,1) 2%,rgba(31,208,227,1) 2%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(253,254,254,1) 14%,rgba(55,187,204,1) 14%,rgba(13,120,161,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#128aa7', endColorstr='#0d78a1',GradientType=0 ); /* IE6-9 */
+
+font-family: Tahoma, Arial, sans-serif;
+}
+
+.wrapper{
+  margin:  auto;
+  width: 70%;
+  background: #fff;
+
+-webkit-box-shadow: 0px 0px 4px 0px rgba(153,153,153,1);
+-moz-box-shadow: 0px 0px 4px 0px rgba(153,153,153,1);
+box-shadow: 0px 0px 4px 0px rgba(153,153,153,1);
+
+}
+
+
+/* HEADER */
+
+.header{
+	position: relative;
+	overflow: hidden;
+}
+
+.logo{
+	float: left;
+	padding-top: 10px;
+}
+
+.cont1{
+	float: right;
+	color:#128aa7;          
+	margin-top: 10px; 
+	margin-right: 50px;
+}
+
+.menu-top{
+	float: right;
+	margin-right: 50px;
+	margin-top: 35px;
+
+}
+
+.menu-top li{
+	display: inline-block;
+	font-size: 12px;
+}
+
+.menu-top a{
+	padding: 10px;
+}
+
+.menu-top p{
+	text-align: center;
+	color:#128aa7; 
+}
+
+/* SIDEBAR */
+
+#menu1 {
+	float:left;
+	width:100%;
+	list-style:none;
+	background-color: #333333;
+	font-size: 15px;
+
+	
+	-webkit-box-shadow: -1px 13px 6px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 13px 6px -9px rgba(0,0,0,0.75);
+	box-shadow: -1px 13px 6px -9px rgba(0,0,0,0.75);
+}
+
+#menu1 li{
+	float:left;
+	position:relative;
+	display:block;
+	margin: 0 10px 0 40px;
+
+}
+
+#menu1 a{
+	display:block;
+	padding-top: 7px;
+	padding-bottom: 10px;
+	color: white;
+	text-decoration:none;
+	margin-left: 10px;
+}
+
+#menu1 a:hover{
+	color: white;
+	text-decoration:none;
+}
+
+#menu1 ul{
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+}
+
+#menu1 ul li{
+	padding-top: 1px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
+	float:none;
+}
+
+#menu1 ul a{
+	white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+	display:block;
+}
+
+#menu1 li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+	left:0; /* Приносим его обратно на экран, когда нужно */
+	background-color: #333333;
+	border: 1px solid black;
+	-webkit-box-shadow: 9px 10px 15px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 9px 10px 15px -5px rgba(0,0,0,0.75);
+	box-shadow: 9px 10px 15px -5px rgba(0,0,0,0.75);
+}
+
+#menu1 li ul li {
+	margin: 0 35px 0 0px;
+}
+
+
+/* CONTENT */
+
+.content {
+	font-family: Tahoma;
+	color: #424c43;
+	line-height: 24px;
+	width: 100%;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+h3 {
+	font-family: Tahoma;
+	color:  #424c43;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.content1 {
+	float:left;
+	padding-right: 10px;
+	width: 25%;
+	height: 539px;
+	background-color: #EBECEE;
+	border-right: 1px solid #D4D6D7;
+	padding-top: 10px;
+	padding-left: 15px;
+	text-align: justify;
+	font-size: 14px;
+}
+
+.content2 {
+	float:right;
+	width: 25%;
+	background-color: #EBECEE;
+	height: 539px;;
+	border-left: 1px solid #D4D6D7;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+/* FOOTER */
+
+.footer{
+	font-family: Tahoma;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	margin:10px;
+}
