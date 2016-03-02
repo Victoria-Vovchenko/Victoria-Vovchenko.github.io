@@ -81,5 +81,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73ea2e', end
     
  </div>
 </body>
-
-</html>
