@@ -1,10 +1,3 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Readme</title>
-</head>
 <style>
 body{
   margin-top: 20px;
