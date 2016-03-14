@@ -5,7 +5,8 @@
 
 html,
 body {
-	height: 100%;
+	min-height: 100%;
+	position:relative;
 }
 
 body {
@@ -118,6 +119,8 @@ span {
 }
 
 .footer {
+	Position:absolute;
+	bottom:0;
 	padding-top: 130px;
 	background-image: url(../img/content1.jpg);
 	background-repeat: no-repeat;
