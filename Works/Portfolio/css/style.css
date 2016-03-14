@@ -118,15 +118,15 @@ span {
 	padding-bottom: 140px;
 }
 
-.footer {
-	Position:absolute;
-	bottom:0;
-	padding-top: 130px;
-	background-image: url(../img/content1.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	color: black;
-}
+/*.footer {*/
+/*	Position:absolute;*/
+/*	bottom:0;*/
+/*	padding-top: 130px;*/
+/*	background-image: url(../img/content1.jpg);*/
+/*	background-repeat: no-repeat;*/
+/*	background-size: 100%;*/
+/*	color: black;*/
+/*}*/
 
 .img-photo {
 	width: 230px;
