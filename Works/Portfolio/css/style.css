@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+}
+
+.header-name,
+.header-developer,
+.header-contacts,
+.content-photo,
+.content-works,
+.footer {
+	text-align: center;
+}
+
+.header-name,
+.header-developer,
+.header-contacts {
+	font-weight: bold;
+	color: black;
+}
+
+.header-contacts {
+	padding-bottom: 15px;
+}
+
+.header-name,
+.header-developer {
+	padding-top: 10px;
+}
+
+.my-portfolio-text {
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.header-name, .header-developer {
+	font-size: 20px;
+}
+
+.header-contacts{
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+
+/* Styles Works in Portfolio*/
+
+.work-x {
+ 	font-size: 15px;
+	color: #2EFE64;
+	margin-bottom: 40px;
+}
+a {
+  	text-decoration: none;
+}
+span {
+	margin-right: 15px;
+}
+
+.coding,
+.demo {
+	color: black;
+	border: 2px solid black;
+	border-radius: 7px;
+	padding: 7px 8px 7px 8px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 20px;
+  
+	-webkit-box-shadow: 0px 2px 33px 4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 33px 4px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 33px 4px rgba(0,0,0,0.75);
+  
+  
+   	background:    
+    background: #73ea2e; /* Old browsers */
+    background: 
+	background: #73ea2e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #73ea2e 0%, #056608 100%, #2a4928 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #73ea2e 0%,#056608 100%,#2a4928 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #73ea2e 0%,#056608 100%,#2a4928 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73ea2e', endColorstr='#2a4928',GradientType=0 ); /* IE6-9 */
+	}
+
+
+/* END Styles Works in Portfolio*/
+
+
+.header {
+	background-image: url(../img/content1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.content {
+	background-image: url(../img/content.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%  100%;
+	padding-bottom: 140px;
+}
+
+
+.footer {
+	padding-top: 130px;
+	background-image: url(../img/content1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: black;
+}
+
+.img-photo {
+	width: 230px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.my-linkedin {
+	width: 230px;
+}
+
+.my-github{
+	width: 200px;
+	height: 45px;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 5px 0 5px 0;
+	background: white;
+}
+	
